@@ -1,0 +1,4 @@
+input, select, textarea{outline:none; height:37px; background-color:inherit; padding-inline:13px;} input::placeholder{opacity:0.4;color: inherit} .option{opacity:0.25} textarea{height:200px; padding-block:7px}
+
+
+.focus-input:focus{background-color: transparent}

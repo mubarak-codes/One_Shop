@@ -1,0 +1,26 @@
+
+.fs1{font-size:12px}.fs2{font-size:14px}.fs3{font-size:16px}.fs4{font-size:18px}.fs5{font-size:20px}.fs6{font-size:22px}.fs7{font-size:24px}.fs8{font-size:26px}.fs9{font-size:28px}.fs10{font-size:30px}
+
+
+.active-fs1:active{font-size:12px}.active-fs2:active{font-size:14px}.active-fs3:active{font-size:16px}.active-fs4:active{font-size:18px}.active-fs5:active{font-size:20px}.active-fs6:active{font-size:22px}.active-fs7:active{font-size:24px}.active-fs8:active{font-size:26px}.active-fs9:active{font-size:28px}.active-fs10:active{font-size:30px}
+
+.hover-fs1:hover{font-size:12px}.hover-fs2:hover{font-size:14px}.hover-fs3:hover{font-size:16px}.hover-fs4:hover{font-size:18px}.hover-fs5:hover{font-size:20px}.hover-fs6:hover{font-size:22px}.hover-fs7:hover{font-size:24px}.hover-fs8:hover{font-size:26px}.hover-fs9:hover{font-size:28px}.hover-fs10:hover{font-size:30px}
+
+.focus-fs1:focus{font-size:12px}.focus-fs2:focus{font-size:14px}.focus-fs3:focus{font-size:16px}.focus-fs4:focus{font-size:18px}.focus-fs5:focus{font-size:20px}.focus-fs6:focus{font-size:22px}.focus-fs7:focus{font-size:24px}.focus-fs8:focus{font-size:26px}.focus-fs9:focus{font-size:28px}.focus-fs10:focus{font-size:30px}
+
+
+
+
+.text-underline{text-decoration: underline}.text-dashed{text-decoration: line-through}
+
+.hover-text-underline:hover{text-decoration:underline}.active-text-underline:active{text-decoration:underline}
+
+
+
+
+
+@media(min-width:580px){.fs1-sm{font-size:12px}.fs2-sm{font-size:14px}.fs3-sm{font-size:16px}.fs4-sm{font-size:18px}.fs5-sm{font-size:20px}.fs6-sm{font-size:22px}.fs7-sm{font-size:24px}.fs8-sm{font-size:26px}.fs9-sm{font-size:28px}.fs10-sm{font-size:30px}}
+
+@media(min-width:780px){.fs1-md{font-size:12px}.fs2-md{font-size:14px}.fs3-md{font-size:16px}.fs4-md{font-size:18px}.fs5-md{font-size:20px}.fs6-md{font-size:22px}.fs7-md{font-size:24px}.fs8-md{font-size:26px}.fs9-md{font-size:28px}.fs10-md{font-size:30px}}
+
+

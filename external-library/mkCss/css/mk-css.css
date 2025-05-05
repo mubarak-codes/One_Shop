@@ -1,0 +1,21 @@
+@import url('mk-css-color.css');
+@import url('mk-css-display.css');
+@import url('mk-css-size.css');
+@import url('mk-css-space.css');
+@import url('mk-css-effect.css');
+@import url('mk-css-border.css');
+@import url('mk-css-input.css');
+@import url('mk-css-position.css');
+@import url('mk-css-text.css');
+
+
+@font-face{font-family:Bebas;src:url(/external-library/mkCss/font/fontFamily/Bebas-Regular.ttf);}@font-face{font-family:Caudex;src:url(/external-library/mkCss/font/fontFamily/Caudex-Regular.ttf);}@font-face{font-family:JosefinSans;src:url(/external-library/mkCss/font/fontFamily/JosefinSans-Regular.ttf);}@font-face{font-family:Montserrat;src:url(/external-library/mkCss/font/fontFamily/Montserrat-Regular.ttf );}@font-face{font-family:Poppins;src:url(/external-library/mkCss/font/fontFamily/Poppins-Regular.ttf);}@font-face{font-family:RobotoCondensed;src:url(/external-library/mkCss/font/fontFamily/Roboto-Condensed.ttf);}@font-face{font-family:Rubik;src:url(/external-library/mkCss/font/fontFamily/Rubik-Bold.ttf);}
+@font-face{font-family:MontserratBold;src:url(/external-library/mkCss/font/fontFamily/Montserrat-Bold.ttf);}@font-face{font-family:JosefinSansBold;src:url(/external-library/mkCss/font/fontFamily/JosefinSans-Bold.ttf);}@font-face{font-family:Ubuntu;src:url(/external-library/mkCss/font/fontFamily/Ubuntu-R.ttf);}
+.ff-bebas{font-family:Bebas;}.ff-caudex{font-family:Caudex;}.ff-josefin-sans{font-family:JosefinSans;}.ff-montserrat{font-family:Montserrat;}.ff-poppins{font-family:Poppins;}.ff-roboto-condensed{font-family:RobotoCondensed;}.ff-rubik{font-family:Rubik;}.ff-montserrat-bold{font-family:MontserratBold;}.ff-josefin-sans-bold{font-family:JosefinSansBold;}.ff-ubuntu{font-family:Ubuntu;}
+
+button{border:none;background-color:transparent;color:inherit}Link,a{text-decoration:none;}.card{border-radius:10px;box-shadow:0 3px 4px #e3e3e3;border:none}.place-items-center{place-items:center}ul{list-style-type:none}.cursor-pointer{cursor:pointer}
+.link{text-decoration:none;} .link-inherit{text-decoration:none; color:inherit}
+
+
+
+

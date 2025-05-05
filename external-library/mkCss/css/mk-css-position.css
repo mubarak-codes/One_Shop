@@ -1,0 +1,51 @@
+.relative{position:relative}.absolute{position:absolute}.fixed{position : fixed}  .static{position:static}
+
+
+.top0{top:0}.top10px{top:10px}.top20px{top:20px}.top30px{top:30px}.top40px{top:40px}.top50px{top:50px}.top60px{top:60px}.top70px{top:70px}.top80px{top:80px}.top90px{top:90px}.top100px{top:100px}.-top10px{top:-10px}.-top20px{top:-20px}.-top30px{top:-30px}.-top40px{top:-40px}.-top50px{top:-50px}.top10{top:10%}.top25{top:25%}.top50{top:50%}.top75{top:75%}.top100{top:100%}
+
+.bottom0{bottom:0}.bottom10px{bottom:10px}.bottom20px{bottom:20px}.bottom30px{bottom:30px}.bottom40px{bottom:40px}.bottom50px{bottom:50px}.bottom60px{bottom:60px}.bottom70px{bottom:70px}.bottom80px{bottom:80px}.bottom90px{bottom:90px}.bottom100px{bottom:100px}.-bottom10px{bottom:-10px}.-bottom20px{bottom:-20px}.-bottom30px{bottom:-30px}.-bottom40px{bottom:-40px}.-bottom50px{bottom:-50px}.bottom10{bottom:10%}.bottom25{bottom:25%}.bottom50{bottom:50%}.bottom75{bottom:75%}.bottom100{bottom:100%} 
+
+.left0{left:0}.left10px{left:10px}.left20px{left:20px}.left30px{left:30px}.left40px{left:40px}.left50px{left:50px}.left60px{left:60px}.left70px{left:70px}.left80px{left:80px}.left90px{left:90px}.left100px{left:100px}.-left10px{left:-10px}.-left20px{left:-20px}.-left30px{left:-30px}.-left40px{left:-40px}.-left50px{left:-50px}.left10{left:10%}.left25{left:25%}.left50{left:50%}.left75{left:75%}.left100{left:100%} 
+
+.right0{right:0}.right10px{right:10px}.right20px{right:20px}.right30px{right:30px}.right40px{right:40px}.right50px{right:50px}.right60px{right:60px}.right70px{right:70px}.right80px{right:80px}.right90px{right:90px}.right100px{right:100px}.-right10px{right:-10px}.-right20px{right:-20px}.-right30px{right:-30px}.-right40px{right:-40px}.-right50px{right:-50px}.right10{right:10%}.right25{right:25%}.right50{right:50%}.right75{right:75%}.right100{right:100%} 
+
+
+
+@media (min-width :580px) {
+ .top0-sm{top:0}.top10px-sm{top:10px}.top20px-sm{top:20px}.top30px-sm{top:30px}.top40px-sm{top:40px}.top50px-sm{top:50px}.top60px-sm{top:60px}.top70px-sm{top:70px}.top80px-sm{top:80px}.top90px-sm{top:90px}.top100px-sm{top:100px}.-top10px-sm{top:-10px}.-top20px-sm{top:-20px}.-top30px-sm{top:-30px}.-top40px-sm{top:-40px}.-top50px-sm{top:-50px}.top10-sm{top:10%}.top25-sm{top:25%}.top50-sm{top:50%}.top75-sm{top:75%}.top100-sm{top:100%}
+
+.bottom0-sm{bottom:0}.bottom10px-sm{bottom:10px}.bottom20px-sm{bottom:20px}.bottom30px-sm{bottom:30px}.bottom40px-sm{bottom:40px}.bottom50px-sm{bottom:50px}.bottom60px-sm{bottom:60px}.bottom70px-sm{bottom:70px}.bottom80px-sm{bottom:80px}.bottom90px-sm{bottom:90px}.bottom100px-sm{bottom:100px}.-bottom10px-sm{bottom:-10px}.-bottom20px-sm{bottom:-20px}.-bottom30px-sm{bottom:-30px}.-bottom40px-sm{bottom:-40px}.-bottom50px-sm{bottom:-50px}.bottom10-sm{bottom:10%}.bottom25-sm{bottom:25%}.bottom50-sm{bottom:50%}.bottom75-sm{bottom:75%}.bottom100-sm{bottom:100%} 
+
+.left0-sm{left:0}.left10px-sm{left:10px}.left20px-sm{left:20px}.left30px-sm{left:30px}.left40px-sm{left:40px}.left50px-sm{left:50px}.left60px-sm{left:60px}.left70px-sm{left:70px}.left80px-sm{left:80px}.left90px-sm{left:90px}.left100px-sm{left:100px}.-left10px-sm{left:-10px}.-left20px-sm{left:-20px}.-left30px-sm{left:-30px}.-left40px-sm{left:-40px}.-left50px-sm{left:-50px}.left10-sm{left:10%}.left25-sm{left:25%}.left50-sm{left:50%}.left75-sm{left:75%}.left100-sm{left:100%} 
+
+.right0-sm{right:0}.right10px-sm{right:10px}.right20px-sm{right:20px}.right30px-sm{right:30px}.right40px-sm{right:40px}.right50px-sm{right:50px}.right60px-sm{right:60px}.right70px-sm{right:70px}.right80px-sm{right:80px}.right90px-sm{right:90px}.right100px-sm{right:100px}.-right10px-sm{right:-10px}.-right20px-sm{right:-20px}.-right30px-sm{right:-30px}.-right40px-sm{right:-40px}.-right50px-sm{right:-50px}.right10-sm{right:10%}.right25-sm{right:25%}.right50-sm{right:50%}.right75-sm{right:75%}.right100-sm{right:100%} 
+}
+
+
+@media (min-width :780px) {
+ .top0-md{top:0}.top10px-md{top:10px}.top20px-md{top:20px}.top30px-md{top:30px}.top40px-md{top:40px}.top50px-md{top:50px}.top60px-md{top:60px}.top70px-md{top:70px}.top80px-md{top:80px}.top90px-md{top:90px}.top100px-md{top:100px}.-top10px-md{top:-10px}.-top20px-md{top:-20px}.-top30px-md{top:-30px}.-top40px-md{top:-40px}.-top50px-md{top:-50px}.top10-md{top:10%}.top25-md{top:25%}.top50-md{top:50%}.top75-md{top:75%}.top100-md{top:100%}
+
+.bottom0-md{bottom:0}.bottom10px-md{bottom:10px}.bottom20px-md{bottom:20px}.bottom30px-md{bottom:30px}.bottom40px-md{bottom:40px}.bottom50px-md{bottom:50px}.bottom60px-md{bottom:60px}.bottom70px-md{bottom:70px}.bottom80px-md{bottom:80px}.bottom90px-md{bottom:90px}.bottom100px-md{bottom:100px}.-bottom10px-md{bottom:-10px}.-bottom20px-md{bottom:-20px}.-bottom30px-md{bottom:-30px}.-bottom40px-md{bottom:-40px}.-bottom50px-md{bottom:-50px}.bottom10-md{bottom:10%}.bottom25-md{bottom:25%}.bottom50-md{bottom:50%}.bottom75-md{bottom:75%}.bottom100-md{bottom:100%} 
+
+.left0-md{left:0}.left10px-md{left:10px}.left20px-md{left:20px}.left30px-md{left:30px}.left40px-md{left:40px}.left50px-md{left:50px}.left60px-md{left:60px}.left70px-md{left:70px}.left80px-md{left:80px}.left90px-md{left:90px}.left100px-md{left:100px}.-left10px-md{left:-10px}.-left20px-md{left:-20px}.-left30px-md{left:-30px}.-left40px-md{left:-40px}.-left50px-md{left:-50px}.left10-md{left:10%}.left25-md{left:25%}.left50-md{left:50%}.left75-md{left:75%}.left100-md{left:100%} 
+
+.right0-md{right:0}.right10px-md{right:10px}.right20px-md{right:20px}.right30px-md{right:30px}.right40px-md{right:40px}.right50px-md{right:50px}.right60px-md{right:60px}.right70px-md{right:70px}.right80px-md{right:80px}.right90px-md{right:90px}.right100px-md{right:100px}.-right10px-md{right:-10px}.-right20px-md{right:-20px}.-right30px-md{right:-30px}.-right40px-md{right:-40px}.-right50px-md{right:-50px}.right10-md{right:10%}.right25-md{right:25%}.right50-md{right:50%}.right75-md{right:75%}.right100-md{right:100%} 
+}
+
+
+@media (min-width :780px) {
+ .top0-lg{top:0}.top10px-lg{top:10px}.top20px-lg{top:20px}.top30px-lg{top:30px}.top40px-lg{top:40px}.top50px-lg{top:50px}.top60px-lg{top:60px}.top70px-lg{top:70px}.top80px-lg{top:80px}.top90px-lg{top:90px}.top100px-lg{top:100px}.-top10px-lg{top:-10px}.-top20px-lg{top:-20px}.-top30px-lg{top:-30px}.-top40px-lg{top:-40px}.-top50px-lg{top:-50px}.top10-lg{top:10%}.top25-lg{top:25%}.top50-lg{top:50%}.top75-lg{top:75%}.top100-lg{top:100%}
+
+.bottom0-lg{bottom:0}.bottom10px-lg{bottom:10px}.bottom20px-lg{bottom:20px}.bottom30px-lg{bottom:30px}.bottom40px-lg{bottom:40px}.bottom50px-lg{bottom:50px}.bottom60px-lg{bottom:60px}.bottom70px-lg{bottom:70px}.bottom80px-lg{bottom:80px}.bottom90px-lg{bottom:90px}.bottom100px-lg{bottom:100px}.-bottom10px-lg{bottom:-10px}.-bottom20px-lg{bottom:-20px}.-bottom30px-lg{bottom:-30px}.-bottom40px-lg{bottom:-40px}.-bottom50px-lg{bottom:-50px}.bottom10-lg{bottom:10%}.bottom25-lg{bottom:25%}.bottom50-lg{bottom:50%}.bottom75-lg{bottom:75%}.bottom100-lg{bottom:100%} 
+
+.left0-lg{left:0}.left10px-lg{left:10px}.left20px-lg{left:20px}.left30px-lg{left:30px}.left40px-lg{left:40px}.left50px-lg{left:50px}.left60px-lg{left:60px}.left70px-lg{left:70px}.left80px-lg{left:80px}.left90px-lg{left:90px}.left100px-lg{left:100px}.-left10px-lg{left:-10px}.-left20px-lg{left:-20px}.-left30px-lg{left:-30px}.-left40px-lg{left:-40px}.-left50px-lg{left:-50px}.left10-lg{left:10%}.left25-lg{left:25%}.left50-lg{left:50%}.left75-lg{left:75%}.left100-lg{left:100%} 
+
+.right0-lg{right:0}.right10px-lg{right:10px}.right20px-lg{right:20px}.right30px-lg{right:30px}.right40px-lg{right:40px}.right50px-lg{right:50px}.right60px-lg{right:60px}.right70px-lg{right:70px}.right80px-lg{right:80px}.right90px-lg{right:90px}.right100px-lg{right:100px}.-right10px-lg{right:-10px}.-right20px-lg{right:-20px}.-right30px-lg{right:-30px}.-right40px-lg{right:-40px}.-right50px-lg{right:-50px}.right10-lg{right:10%}.right25-lg{right:25%}.right50-lg{right:50%}.right75-lg{right:75%}.right100-lg{right:100%} 
+}
+
+
+
+
+
+
+.z-index1{z-index: 1;}.z-index5{z-index: 5;}.z-index10{z-index: 10;}.z-index50{z-index: 50;}.z-index100{z-index: 100;}.z-index500{z-index: 500;}.z-index1000{z-index: 1000;}
