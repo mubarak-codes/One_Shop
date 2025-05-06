@@ -30,7 +30,7 @@
 
 .b-night{border-color : #252525}.b-ebony{border-color : black}.b-snow{border-color :white}
 
-.b-gray{border-color :#757F8A}.b-gray10{border-color :#757F8A1F}.b-gray25{border-color :#757F8A42}.b-gray50{border-color :#757F8A80}.b-gray75{border-color :#757F8ABA}
+.b-gray{border-color :#B8B8B8}.b-gray10{border-color :#757F8A1F}.b-gray25{border-color :#757F8A42}.b-gray50{border-color :#757F8A80}.b-gray75{border-color :#757F8ABA}
 
 .b-lemon{border-color: #B1E548}.b-lemon10{border-color:#B1E5482E}.b-lemon25{border-color:#B1E5484D}.b-lemon50{border-color:#B1E5488A}.b-lemon75{border-color:#B1E548CF}
 
@@ -47,7 +47,7 @@
 
 .active-b-orange:active{border-color:orange}  .active-b-gold:active{border-color:#E5BF00 } .active-b-indigo:active{border-color:indigo}  .active-b-purple:active{border-color:purple}   .active-b-cyan:active{border-color:#23EAEA }  .active-b-red:active{border-color:#DC3546 }  
 
-.active-b-blue:active{border-color:#0D6EFD}  .active-b-green:active{border-color:#25824F } .active-b-yellow:active{border-color:#FEC107} .active-b-night:active{border-color:#252525} .active-b-snow:active{border-color:white}  .active-b-gray:active{border-color:#757F8A}   .active-b-pink:active{border-color: hotpink}
+.active-b-blue:active{border-color:#0D6EFD}  .active-b-green:active{border-color:#25824F } .active-b-yellow:active{border-color:#FEC107} .active-b-night:active{border-color:#252525} .active-b-snow:active{border-color:white}  .active-b-gray:active{border-color:#B8B8B8}   .active-b-pink:active{border-color: hotpink}
 
 .active-b-lemon:active{border-color: #B1E548}
 
@@ -58,7 +58,7 @@
 
 .hover-b-orange:hover{border-color:orange}  .hover-b-gold:hover{border-color:#E5BF00 } .hover-b-indigo:hover{border-color:indigo}  .hover-b-purple:hover{border-color:purple}   .hover-b-cyan:hover{border-color:#23EAEA }  .hover-b-red:hover{border-color:#DC3546 }  .hover-b-blue:hover{border-color:#0D6EFD}  
 
-.hover-b-green:hover{border-color:#25824F } .hover-b-yellow:hover{border-color:#FEC107} .hover-b-night:hover{border-color:#252525} .hover-b-snow:hover{border-color:white}  .hover-b-gray:hover{border-color:#757F8A}   .hover-b-pink:hover{border-color: hotpink}.hover-b-lemon:hover{border-color: #B1E548}
+.hover-b-green:hover{border-color:#25824F } .hover-b-yellow:hover{border-color:#FEC107} .hover-b-night:hover{border-color:#252525} .hover-b-snow:hover{border-color:white}  .hover-b-gray:hover{border-color:#B8B8B8}   .hover-b-pink:hover{border-color: hotpink}.hover-b-lemon:hover{border-color: #B1E548}
 
 
 
@@ -67,7 +67,7 @@
 
 .focus-b-orange:focus{border-color:orange}  .focus-b-gold:focus{border-color:#E5BF00 } .focus-b-indigo:focus{border-color:indigo}  .focus-b-purple:focus{border-color:purple}   .focus-b-cyan:focus{border-color:#23EAEA }  .focus-b-red:focus{border-color:#DC3546 }  .focus-b-blue:focus{border-color:#0D6EFD}  
 
-.focus-b-green:focus{border-color:#25824F } .focus-b-yellow:focus{border-color:#FEC107} .focus-b-night:focus{border-color:#252525} .focus-b-snow:focus{border-color:white}  .focus-b-gray:focus{border-color:#757F8A}   .focus-b-pink:focus{border-color: hotpink}.focus-b-lemon:focus{border-color: #B1E548} 
+.focus-b-green:focus{border-color:#25824F } .focus-b-yellow:focus{border-color:#FEC107} .focus-b-night:focus{border-color:#252525} .focus-b-snow:focus{border-color:white}  .focus-b-gray:focus{border-color:#B8B8B8}   .focus-b-pink:focus{border-color: hotpink}.focus-b-lemon:focus{border-color: #B1E548} 
 
 
 
@@ -107,7 +107,7 @@
 
 .ol-night{outline-color : #252525}.ol-ebony{outline-color : black}.ol-snow{outline-color :white}
 
-.ol-gray{outline-color :#757F8A}.ol-gray10{outline-color :#757F8A1F}.ol-gray25{outline-color :#757F8A42}.ol-gray50{outline-color :#757F8A80}.ol-gray75{outline-color :#757F8ABA}
+.ol-gray{outline-color :#B8B8B8}.ol-gray10{outline-color :#757F8A1F}.ol-gray25{outline-color :#757F8A42}.ol-gray50{outline-color :#757F8A80}.ol-gray75{outline-color :#757F8ABA}
 
 .ol-lemon{outline-color: #B1E548}.ol-lemon10{outline-color:#B1E5482E}.ol-lemon25{outline-color:#B1E5484D}.ol-lemon50{outline-color:#B1E5488A}.ol-lemon75{outline-color:#B1E548CF}
 
@@ -124,7 +124,7 @@
 
 .active-ol-orange:active{outline-color:orange}  .active-ol-gold:active{outline-color:#E5BF00 } .active-ol-indigo:active{outline-color:indigo}  .active-ol-purple:active{outline-color:purple}   .active-ol-cyan:active{outline-color:#23EAEA }  .active-ol-red:active{outline-color:#DC3546 }  
 
-.active-ol-blue:active{outline-color:#0D6EFD}  .active-ol-green:active{outline-color:#25824F } .active-ol-yellow:active{outline-color:#FEC107} .active-ol-night:active{outline-color:#252525} .active-ol-snow:active{outline-color:white}  .active-ol-gray:active{outline-color:#757F8A}   .active-ol-pink:active{outline-color: hotpink}
+.active-ol-blue:active{outline-color:#0D6EFD}  .active-ol-green:active{outline-color:#25824F } .active-ol-yellow:active{outline-color:#FEC107} .active-ol-night:active{outline-color:#252525} .active-ol-snow:active{outline-color:white}  .active-ol-gray:active{outline-color:#B8B8B8}   .active-ol-pink:active{outline-color: hotpink}
 
 .active-ol-lemon:active{outline-color: #B1E548}
 
@@ -135,7 +135,7 @@
 
 .hover-ol-orange:hover{outline-color:orange}  .hover-ol-gold:hover{outline-color:#E5BF00 } .hover-ol-indigo:hover{outline-color:indigo}  .hover-ol-purple:hover{outline-color:purple}   .hover-ol-cyan:hover{outline-color:#23EAEA }  .hover-ol-red:hover{outline-color:#DC3546 }  .hover-ol-blue:hover{outline-color:#0D6EFD}  
 
-.hover-ol-green:hover{outline-color:#25824F } .hover-ol-yellow:hover{outline-color:#FEC107} .hover-ol-night:hover{outline-color:#252525} .hover-ol-snow:hover{outline-color:white}  .hover-ol-gray:hover{outline-color:#757F8A}   .hover-ol-pink:hover{outline-color: hotpink}.hover-ol-lemon:hover{outline-color: #B1E548}
+.hover-ol-green:hover{outline-color:#25824F } .hover-ol-yellow:hover{outline-color:#FEC107} .hover-ol-night:hover{outline-color:#252525} .hover-ol-snow:hover{outline-color:white}  .hover-ol-gray:hover{outline-color:#B8B8B8}   .hover-ol-pink:hover{outline-color: hotpink}.hover-ol-lemon:hover{outline-color: #B1E548}
 
 
 
@@ -144,4 +144,4 @@
 
 .focus-ol-orange:focus{outline-color:orange}  .focus-ol-gold:focus{outline-color:#E5BF00 } .focus-ol-indigo:focus{outline-color:indigo}  .focus-ol-purple:focus{outline-color:purple}   .focus-ol-cyan:focus{outline-color:#23EAEA }  .focus-ol-red:focus{outline-color:#DC3546 }  .focus-ol-blue:focus{outline-color:#0D6EFD}  
 
-.focus-ol-green:focus{outline-color:#25824F } .focus-ol-yellow:focus{outline-color:#FEC107} .focus-ol-night:focus{outline-color:#252525} .focus-ol-snow:focus{outline-color:white}  .focus-ol-gray:focus{outline-color:#757F8A}   .focus-ol-pink:focus{outline-color: hotpink}.focus-ol-lemon:focus{outline-color: #B1E548}
+.focus-ol-green:focus{outline-color:#25824F } .focus-ol-yellow:focus{outline-color:#FEC107} .focus-ol-night:focus{outline-color:#252525} .focus-ol-snow:focus{outline-color:white}  .focus-ol-gray:focus{outline-color:#B8B8B8}   .focus-ol-pink:focus{outline-color: hotpink}.focus-ol-lemon:focus{outline-color: #B1E548}

@@ -36,28 +36,42 @@ const Sidebar = () => {
 
   return (
     <>
-      <section className="px5 px10-sm">
+      <section className="px5 px10-sm w300px">
         <h1 className="ff-rubik">ONE SHOP</h1>
 
         {/*search  */}
-        <div className="w250px mb4">
-         <input placeholder="Search..." className=" rounded-3 b2 mb2" />
-         <div className="flex gap-2">
-           <input placeholder="Search..." className=" rounded-3 b2" />
-           <input placeholder="Search..." className="rounded-3 b2" />
+        <section className=" mb6">
+         <input placeholder="Search..." className=" rounded-3 b input mb2 w100 focus-fs2 transit" />
+         <div className="flex gap-2 w100">
+           <input placeholder="Search..." className=" rounded-3 b input w100 focus-fs2 transit" />
+           <input placeholder="Search..." className="rounded-3 b input w100 focus-fs2 transit" />
          </div>
-        </div>
+        </section>
 
         {/*category*/}
-        <div className="mb4">
-          <h4 className="ff-rubik fs5">Category</h4>
+        <section className="mb6">
+          <h4 className="ff-rubik fs5 mb3">Category</h4>
           {category.map((category, index)=> (
-            <label key={index} className="block mb2">{category}
-              <input type="radio" name="category" value={category} className="me2 inline h100" />
-              
+            <label key={index} className="block mb1">
+              <input type="radio" name="category" value={category} className="me2 vertical-center" />
+              {category}
             </label>
+          ))} 
+        </section>
+
+        {/*keyword*/}
+        <section className="mb6">
+          <h4 className="ff-rubik fs5 mb3">Keyword</h4>
+          {keyword.map((keyword, index)=>(
+            <div key={index} className="text-capitalize opacity75  hover-b b b-trans p1 rounded-3 transit mb1">{keyword}</div>
           ))}
-        </div>
+        </section>
+
+        {/*reset button*/}
+        <button className="btn-night fs2 p2 px6 rounded-3">
+          Reset filter
+        </button>
+
       </section>
     </>
   )
