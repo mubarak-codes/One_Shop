@@ -1,4 +1,4 @@
-import Sidebar from "./components/Sidebar";
+import Home from "./pages/Home";
 import {Route, createBrowserRouter, createRoutesFromElements, RouterProvider} from 'react-router-dom';
 import Layout1 from "./layouts/Layout1";
 
@@ -7,8 +7,8 @@ function App() {
 
   let router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" elements={<Layout1 />}>
-
+      <Route path="/" element={<Layout1 />}>
+        <Route index element={<Home />} />
       </Route>
     )
   )

@@ -36,14 +36,14 @@ const Sidebar = () => {
 
   return (
     <>
-      <section className="px5 py7 px10-sm w300px">
+      <section className="py7 w200px absolute">
 
         {/*search  */}
         <section className=" mb6">
          <input placeholder="Search..." className=" rounded-3 b input mb2 w100 focus-fs2 transit" />
          <div className="flex gap-2 w100">
-           <input placeholder="Search..." className=" rounded-3 b input w100 focus-fs2 transit" />
-           <input placeholder="Search..." className="rounded-3 b input w100 focus-fs2 transit" />
+           <input placeholder="Min..." className=" rounded-3 b input w100 focus-fs2 transit" />
+           <input placeholder="Max..." className="rounded-3 b input w100 focus-fs2 transit" />
          </div>
         </section>
 

@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar';
+import {Outlet} from 'react-router-dom';
 
 
 const Layout1 = ()=>{
@@ -8,10 +9,11 @@ const Layout1 = ()=>{
     <>
       <section>
         <Navbar />
+        <Outlet />
       </section>
     </>
   )
 };
 
 
-export default Navbar;
+export default Layout1;
