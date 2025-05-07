@@ -36,8 +36,7 @@ const Sidebar = () => {
 
   return (
     <>
-      <section className="px5 px10-sm w300px">
-        <h1 className="ff-rubik">ONE SHOP</h1>
+      <section className="px5 py7 px10-sm w300px">
 
         {/*search  */}
         <section className=" mb6">
