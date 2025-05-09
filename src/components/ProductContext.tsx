@@ -3,9 +3,9 @@ import {useQuery} from '@tanstack/react-query';
 
 
 
-let fetchProducts = async()=>{
+const fetchProducts = async()=>{
   try {
-    let res = await fetch('https://www.dummyjson.com/products')
+    const res = await fetch('https://www.dummyjson.com/products')
     return res.json()
   } catch (error) {
     console.error("Error fetching", error);
@@ -22,15 +22,11 @@ interface FetchResponse{
   products: Product[];
 }
 
-interface ProductContextType{
-  data: FetchResponse | undefined;
-  isLoading: boolean;
-};
 
-let ProductContext = createContext<ProductContextType | null>();
+let ProductContext = createContext(null);
 
 const ProductProvider = ({children})=>{
-  let {data, isLoading} = useQuery({
+  const {data, isLoading} = useQuery({
     queryKey: ["products"],
     queryFn: fetchProducts
   })
@@ -43,7 +39,6 @@ const ProductProvider = ({children})=>{
   )
 };
 
-let useProduct = ()=> useContext(ProductContext);
+export let useProduct = ()=>  useContext(ProductContext);
 
-
-export {ProductProvider as default, useProduct};
+export default ProductProvider;
