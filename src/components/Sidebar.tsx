@@ -3,19 +3,23 @@ import {useProduct} from './ProductContext'
 
 
 const Sidebar = ()=>{
-let {data, isLoading} = useProduct()
+  let {data, isLoading} = useProduct()
 
-if (isLoading) {
-  return(<div>loading</div>)
-}
+  let uniqueCategory = Array.from(new Set(data?.products?.map((product)=> product.category)))
+
+
 
   return(
     <>
-      <section className="px5 px10-sm px19-md pt17 bg-gray10">
-        sidebar
-        {data.products.map((pro)=>(
-          <div>{pro.title}</div>
+      <section className="">
+       
+        {isLoading?
+          <div className="spinner1"></div>:
+        <div>{uniqueCategory.map((category, index)=>(
+          <div key={index}>{category}</div>
         ))}
+        </div>
+        }
       </section>
 
     </>

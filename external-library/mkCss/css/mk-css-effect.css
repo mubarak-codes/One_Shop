@@ -8,104 +8,25 @@
 
 
 
-
-.fold{overflow :hidden; padding: 10px; display:none}
-.fold-false{transition : all 0.4s ease-in-out; display:none}
-.fold-true{transition : all 0.4s ease-in-out; display:block}
-
-
-.overlay{position:fixed; top:0;left:0;z-index:10000;width:100%; height:100%;
- background-color:#00000036;
+/*spinners*/
+.spinner1{
+  margin-left: 50%; margin-top:10%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #7E7E7E 50%, #B8B8B8 50%); 
+  -webkit-mask: radial-gradient(transparent 19px, #000 20px);
+  mask: radial-gradient(transparent 28px, #000 5px);
+  animation: rotate 0.7s linear infinite;
 }
-.overlay-hide{display:none;}
 
-.drawer-start{overflow :hidden; transform: scaleX(0);padding: 10px;  transform-origin: right; right: 0; position: absolute; z-index: 50000;}
-.drawer-false-start{transform: scaleX(0); transition : all 0.3s ease-in-out;}
-.drawer-true-start{transform: scaleX(1); transition : all 0.3s ease-in-out; }
-.drawer-head{display: flex;}.drawer-title{margin-right:auto;}.drawer-exit{margin-left: auto ;cursor: pointer ;}.drawer-toggler {cursor: pointer;}
-
-.drawer-end{overflow :hidden;transform: scaleX(0); padding: 10px; position:absolute; z-index: 50000; transform-origin: left; left:0}
-.drawer-false-end{ transform: scaleX(0); transition : all 0.3s ease-in-out;}
-.drawer-true-end{ transition : all 0.3s ease-in-out; transform: scaleX(1);}
-
-.drawer-bottom{overflow :hidden;transform: scaleY(0); padding: 10px; position:absolute; z-index: 50000; transform-origin: top;}
-.drawer-false-bottom{ transform: scaleY(0); transition : all 0.3s ease-in-out;}
-.drawer-true-bottom{ transition : all 0.3s ease-in-out; transform: scaleY(1);}
-
-.drawer-top{overflow :hidden;transform: scaleY(0); padding: 10px; position:absolute; z-index: 50000; transform-origin: bottom; }
-.drawer-false-top{ transform: scaleY(0); transition : all 0.3s ease-in-out;}
-.drawer-true-top{ transition : all 0.3s ease-in-out; transform: scaleY(1);}
-
-
-
-
-.offscreen-start{overflow :hidden;transform: scaleX(0); padding: 10px;  transform-origin: right; right: 0; position: fixed; z-index: 50000; top:0; left: 0;bottom:0; }
-.offscreen-false-start{transform: scaleX(0); transition : all 0.3s ease-in-out;}
-.offscreen-true-start{transform: scaleX(1); transition : all 0.3s ease-in-out; }
-
-.offscreen-head{display: flex;}.offscreen-title{margin-right:auto;}.offscreen-exit{margin-left: auto ;cursor: pointer ;}.offscreen-toggler {cursor: pointer;}
-
-.offscreen-end{overflow :hidden; transform: scaleX(0); padding: 10px; position:fixed; z-index: 50000; transform-origin: left; left:0; right:0; top:0; bottom:0; }
-.offscreen-false-end{ transform: scaleX(0); transition : all 0.3s ease-in-out; }
-.offscreen-true-end{ transition : all 0.3s ease-in-out; transform: scaleX(1);}
-
-.offscreen-bottom{overflow :hidden;transform: scaleY(0); padding: 10px; position:fixed; z-index: 50000; transform-origin: top; top:0; bottom:0; left:0; right:0; }
-.offscreen-false-bottom{ transform: scaleY(0); transition : all 0.3s ease-in-out;}
-.offscreen-true-bottom{ transition : all 0.3s ease-in-out; transform: scaleY(1);}
-
-.offscreen-top{overflow :hidden;transform: scaleY(0); padding: 10px; position:fixed; z-index: 50000; transform-origin: bottom; top:0; bottom:0; left:0; right:0; }
-.offscreen-false-top{ transform: scaleY(0); transition : all 0.3s ease-in-out;}
-.offscreen-true-top{ transition : all 0.3s ease-in-out; transform: scaleY(1);}
-
-
-
-
-@media (min-width :580px) {
- .fold-sm{overflow :hidden; padding: 10px; display:none}
- 
- 
- .drawer-start-sm{overflow :hidden; transform: scaleX(0);padding: 10px;  transform-origin: right; right: 0; position: absolute; z-index: 50000;}
- .drawer-end-sm{overflow :hidden;transform: scaleX(0); padding: 10px; position:absolute; z-index: 50000; transform-origin: left; left:0}
- .drawer-top-sm{overflow :hidden;transform: scaleY(0); padding: 10px; position:absolute; z-index: 50000; transform-origin: top;}
- .drawer-top-sm{overflow :hidden;transform: scaleY(0); padding: 10px; position:absolute; z-index: 50000; transform-origin: bottom; }
- 
- 
- .offscreen-start-sm{overflow :hidden;transform: scaleX(0); padding: 10px; transform-origin:right; right:0; position: fixed; z-index: 50000; top:0; left:0; bottom:0;}
- .offscreen-end-sm{overflow :hidden; transform: scaleX(0); padding: 10px; position:fixed; z-index: 50000; transform-origin: left; left:0; right:0; top:0; bottom:0; }
- .offscreen-bottom-sm{overflow :hidden;transform: scaleY(0); padding: 10px; position:fixed; z-index: 50000; transform-origin: top; top:0; bottom:0; left:0; right:0; }
- .offscreen-top-sm{overflow :hidden;transform: scaleY(0); padding: 10px; position:fixed; z-index: 50000; transform-origin: bottom; top:0; bottom:0; left:0; right:0; }
-} 
-
-
-@media (min-width :580px) {
- .fold-md{overflow :hidden; padding: 10px; display:none}
- 
- 
- .drawer-start-md{overflow :hidden; transform: scaleX(0);padding: 10px;  transform-origin: right; right: 0; position: absolute; z-index: 50000;}
- .drawer-end-md{overflow :hidden;transform: scaleX(0); padding: 10px; position:absolute; z-index: 50000; transform-origin: left; left:0}
- .drawer-top-md{overflow :hidden;transform: scaleY(0); padding: 10px; position:absolute; z-index: 50000; transform-origin: top;}
- .drawer-top-md{overflow :hidden;transform: scaleY(0); padding: 10px; position:absolute; z-index: 50000; transform-origin: bottom; }
- 
- 
- .offscreen-start-md{overflow :hidden;transform: scaleX(0); padding: 10px; transform-origin:right; right:0; position: fixed; z-index: 50000; top:0; left:0; bottom:0;}
- .offscreen-end-md{overflow :hidden; transform: scaleX(0); padding: 10px; position:fixed; z-index: 50000; transform-origin: left; left:0; right:0; top:0; bottom:0; }
- .offscreen-bottom-md{overflow :hidden;transform: scaleY(0); padding: 10px; position:fixed; z-index: 50000; transform-origin: top; top:0; bottom:0; left:0; right:0; }
- .offscreen-top-md{overflow :hidden;transform: scaleY(0); padding: 10px; position:fixed; z-index: 50000; transform-origin: bottom; top:0; bottom:0; left:0; right:0; }
-} 
-
-
-@media (min-width :580px) {
- .fold-lg{overflow :hidden; padding: 10px; display:none}
- 
- 
- .drawer-start-lg{overflow :hidden; transform: scaleX(0);padding: 10px;  transform-origin: right; right: 0; position: absolute; z-index: 50000;}
- .drawer-end-lg{overflow :hidden;transform: scaleX(0); padding: 10px; position:absolute; z-index: 50000; transform-origin: left; left:0}
- .drawer-top-lg{overflow :hidden;transform: scaleY(0); padding: 10px; position:absolute; z-index: 50000; transform-origin: top;}
- .drawer-top-lg{overflow :hidden;transform: scaleY(0); padding: 10px; position:absolute; z-index: 50000; transform-origin: bottom; }
- 
- 
- .offscreen-start-lg{overflow :hidden;transform: scaleX(0); padding: 10px; transform-origin:right; right:0; position: fixed; z-index: 50000; top:0; left:0; bottom:0;}
- .offscreen-end-lg{overflow :hidden; transform: scaleX(0); padding: 10px; position:fixed; z-index: 50000; transform-origin: left; left:0; right:0; top:0; bottom:0; }
- .offscreen-bottom-lg{overflow :hidden;transform: scaleY(0); padding: 10px; position:fixed; z-index: 50000; transform-origin: top; top:0; bottom:0; left:0; right:0; }
- .offscreen-top-lg{overflow :hidden;transform: scaleY(0); padding: 10px; position:fixed; z-index: 50000; transform-origin: bottom; top:0; bottom:0; left:0; right:0; }
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) ;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
+
