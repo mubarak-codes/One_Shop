@@ -12,7 +12,12 @@ const Sidebar = ()=>{
   return(
     <>
       <section className="">
-       
+        {/*search*/}
+        <div className="mb5">
+          <input type="text" placeholder="Search..." />
+        </div>
+      
+        <h5 className="ff-rubik">Category</h5>
         {isLoading?
           <div className="spinner1"></div>:
         <div>{uniqueCategory.map((category, index)=>(

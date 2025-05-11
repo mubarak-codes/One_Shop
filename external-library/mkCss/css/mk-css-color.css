@@ -11,7 +11,7 @@
 
 
 /*button*/
-.btn-night{background-color:#252525; color: white; transition: background-color 0.15s ease-in-out} .btn-night:hover{background-color: #434343}
+.btn-night{background-color:#252525; color: white; transition: background-color 0.15s ease-in-out; border-radius:10px;} .btn-night:hover{background-color: #434343}
 
 
 

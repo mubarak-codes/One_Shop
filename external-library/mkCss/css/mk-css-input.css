@@ -1,4 +1,10 @@
-input,radio, textarea{outline:none; background-color:inherit; padding-inline:13px; height:37px} textarea, input::placeholder{opacity:0.25;color: inherit} .option{opacity:0.25} textarea{height:200px; padding-block:7px}
+input, select, textarea{outline:none; background-color:inherit; padding-inline:13px; height:37px; border-radius:10px; border: 1px solid #B8B8B8; color:#AEAEAE; } 
+textarea, input::placeholder{opacity:0.25;color: inherit} .option{opacity:0.25} textarea{height:200px; padding-block:7px}
+
+
+input:focus{background-color:transparent; font-size:13px; transition: all 0.15s ease-in-out;}
+
+
 
 
 
@@ -77,4 +83,3 @@ input[type="checkbox"]:checked{background-color: limegreen; border-color: limegr
 
 
 
-.focus-input:focus{background-color: transparent}
