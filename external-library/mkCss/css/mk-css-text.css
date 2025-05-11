@@ -11,9 +11,10 @@
 
 
 
-.text-underline{text-decoration: underline}.text-dashed{text-decoration: line-through}
+.txt-underline{text-decoration: underline}.txt-line-through{text-decoration: line-through}
 
-.hover-text-underline:hover{text-decoration:underline}.active-text-underline:active{text-decoration:underline}
+.hover-txt-underline:hover{text-decoration:underline}.active-txt-underline:active{text-decoration:underline}
+
 
 
 

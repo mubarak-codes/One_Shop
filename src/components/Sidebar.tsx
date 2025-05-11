@@ -14,14 +14,20 @@ const Sidebar = ()=>{
       <section className="">
         {/*search*/}
         <div className="mb5">
-          <input type="text" placeholder="Search..." />
+          <input type="text" placeholder="Search..." className="w100 h50px mb2"/>
+          <div className="flex gap-2">
+            <input type="text" placeholder="Search..." className="w100 h50px"/>
+            <input type="text" placeholder="Search..." className="w100 h50px"/>
+          </div>
         </div>
       
         <h5 className="ff-rubik">Category</h5>
         {isLoading?
           <div className="spinner1"></div>:
         <div>{uniqueCategory.map((category, index)=>(
-          <div key={index}>{category}</div>
+          <label key={index}>
+            <input type="radio" name="category" value={category} />
+          {category}</label>
         ))}
         </div>
         }
