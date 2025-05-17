@@ -150,4 +150,8 @@
 
 
 /*border radiuus*/
-.br1{border-radius: 4px } .br2{border-radius: 8px;} .br3{border-radius: 13px} .br4{border-radius: 19px} .br5{border-radius: 26px} .br6{border-radius: 34px}
+.br1{border-radius: 4px } .br2{border-radius: 8px;} .br3{border-radius: 13px} .br4{border-radius: 19px} .br5{border-radius: 26px} .br6{border-radius: 34px} .br-circle{border-radius: 50%} .br-pill{border-radius: 50rem} 
+
+.br-top{border-top-left-radius: 10px; border-top-right-radius: 10px} .br-right{border-top-right-radius: 10px; border-bottom-right-radius: 10px} .br-bottom{border-bottom-right-radius: 10px; border-bottom-left-radius: 10px} .br-left{border-bottom-left-radius: 10px; border-top-left-radius: 10px}
+
+.br-top-left{border-top-left-radius: 10px} .br-top-right{border-top-right-radius: 10px} .br-bottom-left{border-bottom-left-radius: 10px} .br-bottom-right{border-bottom-right-radius: 10px}

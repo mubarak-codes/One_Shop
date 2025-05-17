@@ -24,6 +24,7 @@
 .flex{display:flex}.d-col{flex-direction: column;}.d-row{flex-direction: row;}.d-col-reverse{flex-direction : column-reverse}.d-row-reverse{flex-direction: row-reverse}
 .content-center{justify-content: center ;}.content-start{justify-content: start;}.content-end{justify-content: end;}.content-between{justify-content: space-between;}.content-around{justify-content: space-around;}.content-evenly{justify-content: space-evenly;}.flex1{flex:1}.flex2{flex:2}.flex3{flex:3}.flex4{flex:4}.flex5{flex:5}
 .items-center{align-items: center ;}.items-start{align-items: start;}.items-end{align-items: end;}.items-between{align-items: space-between;}.items-around{align-items: space-around;}.items-evenly{align-items: space-evenly;}.items-stretch{align-items: stretch ;}
+.self-end{justify-self: end}
 
 
 @media (min-width:580px) {
