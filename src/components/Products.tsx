@@ -5,9 +5,10 @@ const Products = ()=>{
 
   return(
     <>
-      <section className="ps20-sm ms20-sm">
+      <section className="my7">
+        {/*filter*/}
         <div>
-          Products
+          <span>Filter</span>
         </div>
       </section>
     </>

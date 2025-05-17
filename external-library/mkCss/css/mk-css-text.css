@@ -12,8 +12,12 @@
 
 
 .txt-underline{text-decoration: underline}.txt-line-through{text-decoration: line-through}
+.txt-bold{font-weight: 700;} .txt-light{font-weight: 200} .txt-normal{font-weight: 400} .txt-bolder{font-weight: 900;} .txt-semibold{font-weight: 500;} .txt-lighter{font-weight: 100;}
+
+
 
 .hover-txt-underline:hover{text-decoration:underline}.active-txt-underline:active{text-decoration:underline}
+
 
 
 
