@@ -145,3 +145,9 @@
 .focus-ol-orange:focus{outline-color:orange}  .focus-ol-gold:focus{outline-color:#E5BF00 } .focus-ol-indigo:focus{outline-color:indigo}  .focus-ol-purple:focus{outline-color:purple}   .focus-ol-cyan:focus{outline-color:#23EAEA }  .focus-ol-red:focus{outline-color:#DC3546 }  .focus-ol-blue:focus{outline-color:#0D6EFD}
 
 .focus-ol-green:focus{outline-color:#25824F } .focus-ol-yellow:focus{outline-color:#FEC107} .focus-ol-night:focus{outline-color:#252525} .focus-ol-snow:focus{outline-color:white}  .focus-ol-gray:focus{outline-color:#808080}   .focus-ol-pink:focus{outline-color: hotpink}.focus-ol-lemon:focus{outline-color: #B1E548}
+
+
+
+
+/*border radiuus*/
+.br1{border-radius: 4px } .br2{border-radius: 8px;} .br3{border-radius: 13px} .br4{border-radius: 19px} .br5{border-radius: 26px} .br6{border-radius: 34px}

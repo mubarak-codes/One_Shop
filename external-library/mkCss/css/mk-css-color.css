@@ -13,6 +13,9 @@
 /*button*/
 .btn-night{background-color:#252525; color: white; transition: background-color 0.15s ease-in-out} .btn-night:hover{background-color: #434343}
 
+.btn-blue{background-color:#0D6EFD; color: white; transition: background-color 0.15s ease-in-out; padding: 10px;} .btn-blue:hover{background-color: #0D6EFDB8 } .btn-blue:active{background-color: #0D6EFD7A }
+
+
 
 
 

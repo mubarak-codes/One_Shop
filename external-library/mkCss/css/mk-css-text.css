@@ -10,8 +10,15 @@
 
 
 
-
+/*text-decoration*/
 .txt-underline{text-decoration: underline}.txt-line-through{text-decoration: line-through}
+
+/*text-align*/
+.txt-center{text-align: center;} .txt-left{text-align: left} .txt-right{text-align: right;} .txt-justify{text-align: justify;}
+
+.nowrap{text-wrap: nowrap}
+
+/*font-weight*/
 .txt-bold{font-weight: 700;} .txt-light{font-weight: 200} .txt-normal{font-weight: 400} .txt-bolder{font-weight: 900;} .txt-semibold{font-weight: 500;} .txt-lighter{font-weight: 100;}
 
 
