@@ -7,7 +7,7 @@ const Home = ()=>{
 
   return(
     <>
-      <section className="px5 px10-sm px19-md pt17 bg-gray10">
+      <section className="px5 px7-sm px9-md pt17 bg-gray10">
         <Hero />
         <Products />
         <FilterContent />
