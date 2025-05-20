@@ -12,11 +12,19 @@ const FilterContent = () => {
 
 
   return (
-    <section className="bb">
-    <h6 className="ff-poppins-semibold fs3">Category</h6>
+    <section className="">
+      <div>
+        <div className="flex items-center gap1">
+          <i class="bi bi-filter fs6"></i>
+          <span className="fs2">Filter</span>
+        </div>
+      </div>
+
+      <div className="offcanvas bb">
+        <h6 className="ff-poppins-semibold fs3">Category</h6>
         {isLoading?
           <div className="spinner1"></div>:
-        <div className="">{uniqueCategory.map((category, index)=>(
+         <div className="">{uniqueCategory.map((category, index)=>(
           <label key={index} className="flex items-center fs2">
             <div className="text-capitalize opacity75">{category}</div>
           </label>
@@ -28,6 +36,7 @@ const FilterContent = () => {
             <input type="number" placeholder="Min..." className="w100 h50px form rounded-3"/>
             <input type="number" placeholder="Max..." className="w100 h50px form rounded-3"/>
           </div>
+      </div>
     </section>
 
   )

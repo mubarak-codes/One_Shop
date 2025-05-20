@@ -1,17 +1,20 @@
-input, select, textarea{outline:none; background-color:inherit; padding-inline:13px; height:37px; color: inherit; border: 1px solid #808080; opacity: 0.6; outline: 4px solid transparent} 
+input, select, textarea{outline:none; background-color:inherit; padding-inline:13px; height:37px; color: inherit; border: 1px solid #808080; opacity: 0.6; outline: 2px solid transparent}
 textarea, input::placeholder{opacity:0.4;color: inherit} .option{opacity:0.4} textarea{height:200px; padding-block:7px}
 
 
-.form{transition: all 0.15s ease-in-out} .form:focus{border: 1px solid #E5E1C8; outline: 4px solid #DDDAC1; font-size: 14px;}
+.form{transition: all 0.15s ease-in-out} .form:focus{border: 1px solid #E5E1C8; outline: 2.5px solid #DDDAC1; }
+
+.form-orange:focus{border: 1px solid transparent; outline: 2.5px solid #FEA6009E}
+.form-blue:focus{border: 1px solid transparent; outline: 2.5px solid #0D6EFDB8}
 
 
 
 /*radio*/
-.radio-blue[type="radio"]:checked{border: 1px solid #0D6EFD;} .radio-blue[type="radio"]::before{background-color: #0D6EFD} 
+.radio-blue[type="radio"]:checked{border: 1px solid #0D6EFD;} .radio-blue[type="radio"]::before{background-color: #0D6EFD}
 
-.radio-red[type="radio"]:checked{border: 1px solid #DC3546;} .radio-red[type="radio"]::before{background-color: #DC3546} 
+.radio-red[type="radio"]:checked{border: 1px solid #DC3546;} .radio-red[type="radio"]::before{background-color: #DC3546}
 
-.radio-yellow[type="radio"]:checked{border: 1px solid #FEC107;} .radio-yellow[type="radio"]::before{background-color: #FEC107;}  
+.radio-yellow[type="radio"]:checked{border: 1px solid #FEC107;} .radio-yellow[type="radio"]::before{background-color: #FEC107;}
 
 /*radio*/
 input[type="radio"]{

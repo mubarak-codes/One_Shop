@@ -6,6 +6,38 @@
 .vertical-center{vertical-align: middle} .vertical-baseline{vertical-align: baseline} .vertical-top{vertical-align: top} .vertical-bottom{vertical-align: bottom}
 
 
+@media  (min-width: 580px) {
+  .inline-sm{display:inline} .inline-block-sm{display:inline-block} .block-sm{display:block} .none-sm{display:none} .inline-flex-sm{display:inline-flex}
+
+.justify-self-center-sm{justify-self:center}
+
+.vertical-center-sm{vertical-align: middle} .vertical-baseline-sm{vertical-align: baseline} .vertical-top-sm{vertical-align: top} .vertical-bottom-sm{vertical-align: bottom}
+
+}
+
+@media  (min-width: 780px) {
+  .inline-md{display:inline} .inline-block-md{display:inline-block} .block-md{display:block} .none-md{display:none} .inline-flex-md{display:inline-flex}
+
+.justify-self-center-md{justify-self:center}
+
+.vertical-center-md{vertical-align: middle} .vertical-baseline-md{vertical-align: baseline} .vertical-top-md{vertical-align: top} .vertical-bottom-md{vertical-align: bottom}
+
+}
+
+
+@media  (min-width: 990px) {
+  .inline-lg{display:inline} .inline-block-lg{display:inline-block} .block-lg{display:block} .none-lg{display:none} .inline-flex-lg{display:inline-flex}
+
+.justify-self-center-lg{justify-self:center}
+
+.vertical-center-lg{vertical-align: middle} .vertical-baseline-lg{vertical-align: baseline} .vertical-top-lg{vertical-align: top} .vertical-bottom-lg{vertical-align: bottom}
+
+}
+
+
+
+
+
 .d-grid{display:grid}.gr{grid-template-columns:1fr}.gr2{grid-template-columns:1fr 1fr}.gr3{grid-template-columns:1fr 1fr 1fr}.gr4{grid-template-columns:1fr 1fr 1fr 1fr}.gr5{grid-template-columns:1fr 1fr 1fr 1fr 1fr}.gr6{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr}.gr-auto{grid-auto-columns:auto;grid-auto-flow:column;overflow:hidden;}
 
 @media(min-width:580px){.d-grid-sm{display:grid}.gr-sm{grid-template-columns:1fr}.gr2-sm{grid-template-columns:1fr 1fr}.gr3-sm{grid-template-columns:1fr 1fr 1fr}.gr4-sm{grid-template-columns:1fr 1fr 1fr 1fr}.gr5-sm{grid-template-columns:1fr 1fr 1fr 1fr 1fr}.gr6-sm{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr}.gr-auto-sm{grid-auto-columns:auto;grid-auto-flow:column;overflow:hidden;}}
